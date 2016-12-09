@@ -40,3 +40,18 @@ header p{
 .jumbotron h3{
     color: white;
 }
+
+.jumbotron p{
+    color: white;
+}
+
+.skillicon {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.skillicon p{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
