@@ -26,9 +26,17 @@ header p{
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('images/background-image.png');
+    /*background-image: url('images/background-image-2.jpg');*/
+    background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
     background-size: cover;
-    color: azure;
-    height: 768px;
+    color: #fff;
     text-shadow: 0.25px 0.25px 0.25px #000;
+}
+
+.jumbotron h2{
+    color: white;
+}
+
+.jumbotron h3{
+    color: white;
 }
