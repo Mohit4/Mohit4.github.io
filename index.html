@@ -15,12 +15,20 @@
     <!--Navigation bar begins-->
     <header class="container">
         <div class="row">
-            <h3 class="col-sm-4">Mohit Kumar</h3>
-            <nav class="col-sm-8">
-                <p>About me</p>
-                <p>Projects</p>
-                <p>Contacts</p>
-            </nav>
+            <div class="col-sm-3">
+                <h3>Mohit Kumar</h3>
+            </div>
+            <div class="col-sm-9 mynav text-right">
+                <div class="col-sm-3">
+                    <p>About me</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Projects</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Resume</p>
+                </div>
+            </div>
         </div>
     </header>
     <!--Navigation bar ends-->
@@ -125,19 +133,19 @@
     </section>
 
     <!--Projects display begins-->
-    <section id="projects" class="container">
+    <section class="container projects">
         <div class="row text-center">
             <h2>Projects</h2>
-            <p style="font-size: 2rem">These are the projects that I've worked on. They includes both Self and Academic projects.</p>
+            <p style="font-size: 2rem">These are the projects that I've worked on. They include both Self and Academic projects.</p>
         </div>
         <div class="row text-center projectgallery">
             <figure class="col-sm-4 projectblock">
-                <img src="https://github.com/mohit4/face-recognition-system/raw/master/examples/facerec_multiple.png"/>
+                <img src="images/facerec_multiple.png"/>
                 <h3>Facial Recognition System</h3>
                 <p>Developed using Python 2.7, OpenCV module and SQLite3, capable of storing the user information and recognizing the user.</p>
             </figure>
             <figure class="col-sm-4 projectblock">
-                <img src="images/project.png"/>
+                <img src="images/textsum.png"/>
                 <h3>Automatic Text Summarizing</h3>
                 <p>Developed using Python 2.7, Numpy and NLTK module, input a single text document and retrieve a summary of desired length.</p>
             </figure>
@@ -147,7 +155,7 @@
                 <p>Using Turbo C++ 3.0 and OOPs concepts, built-in custom map generator, user can make their own levels.</p>
             </figure>
             <figure class="col-sm-4 projectblock">
-                <img src="images/project.png"/>
+                <img src="images/doccensor.png"/>
                 <h3>Document Word Censor</h3>
                 <p>Uses Python 2.7 and a blacklist stored in JSON format to detect and censor restricted words from a document.</p>
             </figure>
@@ -157,7 +165,7 @@
                 <p>Using PHP and MySQL, developed a simple air-ticket booking system; submitted as academic project.</p>
             </figure>
             <figure class="col-sm-4 projectblock">
-                <img src="images/project.png"/>
+                <img src="images/calc.png"/>
                 <h3>Android Calculator</h3>
                 <p>A simple android calculator developed using Android Studio.</p>
             </figure>
@@ -165,14 +173,58 @@
         <hr>
     </section>
 
-    <footer class="container">
+    <section class="container hackathons">
         <div class="row text-center">
-            <h2>Contact me</h2>
+            <h2>Hack-a-thons</h2>
+            <div class="col-sm-6">
+                <img style="border-color: #ff7c00" src="images/geekcombat.PNG"/>
+            </div>
+            <div class="col-sm-6">
+                <img style="border-color: #004380" src="images/buildathon.PNG"/>
+            </div>
+            <p>I've participated in these hack-a-thon events where I've worked on the ideas of Krise - Disaster Warning Android Application and MagicBot - A Facebook Messenger Property chat-bot.</p>
         </div>
-        <div class="row text-center">
-            <ul>
-                <li><i class="fa fa-twitter"></i></li>
-            </ul>
+        <hr>
+    </section>
+
+    <section class="container text-center" style="font-family: 'Coustard', serif; font-size: 2rem;">
+        <h2>Hobbies and Extra curricular activities</h2>
+        <p>Besides Programming, I like to spend my time reading Novels, playing Video Games and writing my own stories. I like singing, dancing and drawing. I've participated in NSIT's annual cultural fest Moksha and performed Contemporary dance. I've also won Science Quiz on Climate Change on both District and State Level during Jawaharlal Nehru Science Exhibition 2010.</p>
+        <hr>
+    </section>
+
+    <section class="container text-center" style="font-family: 'Coustard', serif; font-size: 2rem;">
+        <p>If you like my profile and interested in hiring me, this is the link to my resume</p>
+        <div class="row">
+            <a href="https://drive.google.com/open?id=0B1dsSnBTdjw9S2RnTWZjYUdQZ2s" target="_blank"><i class="fa fa-download" style="font-size: 4rem"></i></a>
+        </div>
+        <p>Or get in contact with me using the following links.</p>
+    </section>
+
+    <footer class="container text-center">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="contactlinks">
+                    <a target="_blank" href="https://twitter.com/MohitKKirar"><i style="color: #0084b4" class="fa fa-twitter-square"></i></a>
+                </div>
+                <div class="contactlinks">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100002190560848"><i style="color: #3B5998" class="fa fa-facebook-square"></i></a>
+                </div>
+                <div class="contactlinks">
+                    <a target="_blank" href="https://github.com/mohit4"><i style="color: #000000" class="fa fa-github"></i></a>
+                </div>
+                <div class="contactlinks">
+                    <a target="_blank" href="https://in.linkedin.com/in/mohit-kumar-0b7a4b99"><i style="color: #007BB6" class="fa fa-linkedin-square"></i></a>
+                </div>
+                <div class="contactlinks">
+                    <a target="_blank" href="https://www.freecodecamp.com/mohit4"><i style="color: #006400" class="fa fa-free-code-camp"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div style="font-family: 'Coustard', serif;">
+            <p>&copy; Copyright | Mohit Kumar 2016 | All rights reserved.</p>
         </div>
     </footer>
 
