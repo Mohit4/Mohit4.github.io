@@ -12,34 +12,33 @@
     <link href="https://fonts.googleapis.com/css?family=Coustard&effect=3d" rel="stylesheet">
 </head>
 <body>
-    <!--Navigation bar begins-->
+
+    <!--Navigation Bar begins-->
     <header class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <h3>Mohit Kumar</h3>
-            </div>
-            <div class="col-sm-9 mynav text-right">
-                <div class="col-sm-3">
-                    <p>About me</p>
+            <h1 class="col-sm-4">Portfolio*</h1>
+            <nav class="col-sm-8 text-right">
+                <div class="navbutton">
+                    <a href="#aboutme">About me</a>
                 </div>
-                <div class="col-sm-3">
-                    <p>Projects</p>
+                <div class="navbutton">
+                    <a href="#projects">Projects</a>
                 </div>
-                <div class="col-sm-3">
-                    <p>Resume</p>
+                <div class="navbutton">
+                    <a href="#contacts">Contact me</a>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
-    <!--Navigation bar ends-->
+    <!--Navigation Bar ends-->
 
     <!--Jumbotron begins-->
     <section class="jumbotron">
         <div class="container">
             <div class="row text-center">
-                <img src="images/face.png"/>
-                <h2 class="font-effect-3d">Mohit Kumar</h2>
-                <h3 class="font-effect-3d">Software Developer . Web Developer . Graphic Artist</h3>
+                <img id="faceimage" src="images/face.png"/>
+                <h1 style="color: white;padding-bottom: 10px" class="font-effect-3d">Mohit Kumar</h1>
+                <h3 style="color: white" class="font-effect-3d">Software Developer . Web Developer . Graphic Artist</h3>
             </div>
         </div>
     </section>
@@ -47,7 +46,7 @@
 
     <section id="aboutme" class="container">
         <div class="row text-center">
-            <h3>About me</h3>
+            <h1>About me</h1>
             <p>I'm a passionate programmer and technology enthusiast, willing to learn and master almost all the software skills in the world.
                 I've worked hard on academic projects with team of 3-5 persons showing leadership qualities, I've also worked on lots of small self-projects
                 and went to hack-a-thons to use my knowledge and improve my skills.
@@ -55,24 +54,24 @@
             <hr>
         </div>
         <div class="row text-center">
-            <h3>My Education</h3>
-            <img src="images/nsitlogo.png"/>
+            <h1>My Education</h1>
+            <img style="padding-bottom: 20px" src="images/nsitlogo.png"/>
             <p>I'm currently pursuing B.E. in Computer Engineering at Netaji Subhas Institute of Technology (N.S.I.T. Delhi). Through these years I've acquired the knowledge of Data Structures and Algorithms, Operating System Concepts, Database Management System, Artificial Intelligence and Compiler Design.</p>
             <hr>
         </div>
         <div class="row text-center">
-            <h3>Independent Coursework</h3>
-            <div class="container col-sm-6">
+            <h1>Independent Coursework</h1>
+            <div class="container col-sm-6" style="padding: 20px">
                 <img src="https://d37djvu3ytnwxt.cloudfront.net/static/edx.org/images/logo.790c9a5340cb.png">
             </div>
-            <div class="container col-sm-6">
+            <div class="container col-sm-6" style="padding: 20px">
                 <img src="https://www.codecademy.com/assets/logo/logo--dark-blue.svg">
             </div>
             <p>Besides my formal education, I've acquired different skills online independently. Some of the skills I acquired from the above websites including Introduction to Bootstrap, Introduction to Python for Data Science and Web Developement.</p>
             <hr>
         </div>
         <div class="row text-center">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
             <p>These are the skills that I've acquired overtime (and still counting...)</p>
         </div>
         <div class="row text-center">
@@ -133,9 +132,9 @@
     </section>
 
     <!--Projects display begins-->
-    <section class="container projects">
+    <section id="projects" class="container projects">
         <div class="row text-center">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <p style="font-size: 2rem">These are the projects that I've worked on. They include both Self and Academic projects.</p>
         </div>
         <div class="row text-center projectgallery">
@@ -175,7 +174,7 @@
 
     <section class="container hackathons">
         <div class="row text-center">
-            <h2>Hack-a-thons</h2>
+            <h1>Hack-a-thons</h1>
             <div class="col-sm-6">
                 <img style="border-color: #ff7c00" src="images/geekcombat.PNG"/>
             </div>
@@ -188,7 +187,7 @@
     </section>
 
     <section class="container text-center" style="font-family: 'Coustard', serif; font-size: 2rem;">
-        <h2>Hobbies and Extra curricular activities</h2>
+        <h1>Hobbies and Extra curricular activities</h1>
         <p>Besides Programming, I like to spend my time reading Novels, playing Video Games and writing my own stories. I like singing, dancing and drawing. I've participated in NSIT's annual cultural fest Moksha and performed Contemporary dance. I've also won Science Quiz on Climate Change on both District and State Level during Jawaharlal Nehru Science Exhibition 2010.</p>
         <hr>
     </section>
@@ -201,7 +200,7 @@
         <p>Or get in contact with me using the following links.</p>
     </section>
 
-    <footer class="container text-center">
+    <footer id="contacts" class="container text-center">
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">

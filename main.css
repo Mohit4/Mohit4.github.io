@@ -1,24 +1,75 @@
+.navbutton {
+    float: right;
+}
+
+.navbutton a{
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+    position: relative;
+}
+
+.navbutton a:active {
+    top: 2px;
+}
+
+.navbutton a:link{
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .row{
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Coustard', serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    border-radius: 4px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Coustard', serif;
+    box-shadow: 10px 10px 5px #defdef;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#faceimage {
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
     /*background-image: url('images/background-image-2.jpg');*/
     background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
     background-size: cover;
-    color: #fff;
     text-shadow: 0.25px 0.25px 0.25px #000;
     font-family: 'Coustard', serif;
-}
-
-.jumbotron h2{
-    color: white;
-}
-
-.jumbotron h3{
-    color: white;
-}
-
-.jumbotron p{
-    color: white;
 }
 
 .skillicon {
@@ -50,7 +101,7 @@
     font-size: 2rem;
 }
 
-.projects {
+#projects {
     font-family: 'Coustard', serif;
     font-size: 1.5rem;
 }
@@ -64,10 +115,8 @@
 
 .projectblock {
     margin: 20px;
-    border-radius: 8px;
     padding: 10px 10px 10px 10px;
-    border: 2px solid #ffa73d;
-    box-shadow: 10px 10px 5px #ffa73d;
+    box-shadow: 10px 10px 5px #defdef;
 }
 
 .projectblock img{
@@ -92,15 +141,4 @@ footer {
     margin: 20px;
     align-items: center;
     text-align: center;
-}
-
-.mynav {
-
-}
-
-.mynav p{
-    border: 1px solid #ff7c00;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 5px;
 }
