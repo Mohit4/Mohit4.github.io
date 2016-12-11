@@ -1,5 +1,6 @@
 header {
     padding: 20px 0;
+    font-family: 'Coustard', serif;
 }
 
 header .row,
@@ -31,6 +32,7 @@ header p{
     background-size: cover;
     color: #fff;
     text-shadow: 0.25px 0.25px 0.25px #000;
+    font-family: 'Coustard', serif;
 }
 
 .jumbotron h2{
@@ -52,6 +54,36 @@ header p{
 
 .skillicon p{
     font-size: 2rem;
-    font-weight: bold;
     padding-top: 10px;
+}
+
+.skillicon i{
+    font-size: 8rem;
+}
+
+#aboutme {
+    font-family: 'Coustard', serif;
+    font-size: 2rem;
+}
+
+#projects {
+    font-family: 'Coustard', serif;
+    font-size: 1.5rem;
+}
+
+.projectgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projectblock {
+    margin: 20px;
+    border: 5px solid #FFF;
+}
+
+.projectblock img{
+    width: 320px;
+    height: 240px;
 }
